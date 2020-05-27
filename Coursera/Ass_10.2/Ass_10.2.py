@@ -14,17 +14,19 @@ hour = { }
 for line in fhandle:
     line = line.strip()
     if 'From ' in line:
-        line=line.rstrip()
+        line = line.rstrip()
         line = line.split()
-        string=line[5]
-        string=string[0:2]
+        string = line[5]
+        string = string[0:2]
         lst.append(string)
-
+print(lst)
 for our in lst:
     hour[our] = hour.get(our, 0) + 1
 for k,v in hour.items():
     newtp=(k,v)
     time.append(newtp)
-time=sorted(time)
+time = sorted(time)
+
+#final print
 for k,v in time:
     print(k,v)
