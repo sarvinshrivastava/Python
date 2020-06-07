@@ -29,5 +29,5 @@ for i in range(num):
         physics = float(lst_physics[i])
         chemistry = float(lst_chemistry[i])
         s = maths + physics + chemistry
-        per = s / 3
+        per = s / 3.0
         print(per)
