@@ -21,15 +21,11 @@ l=len(vlst)
 for j in range(l):
     if min==vlst[j]:
         vlst[j]=1000.0
-#print('Min:',min)
 
 vlst.sort()
-#print('Sorted:', vlst)
-#print('lstclass:', lst_class)
 for i,j in lst_class:
     if j==vlst[0]:
         newlst.append(i)
-#print(newlst)
 for i in newlst:
     newlst.sort()
 for i in newlst:
