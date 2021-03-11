@@ -1,7 +1,7 @@
 #Read an integer N. For all non-negative integers i < n, print i^2 . See the sample for details.
 
 #problem starts from here
-#taring input
+#taking input
 N = input()
 N = int(N)
 
