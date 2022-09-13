@@ -1,4 +1,4 @@
-#You have to print a list of all possible coordinates given by (i,j,k )on a 3D grid where the sum of i + j+ k != N.
+#Write a program to print a list of all possible coordinates given by (i,j,k )on a 3D grid where the sum of i + j+ k != N.
 #Here:-
 #0 <= i <= X
 #0 <= j <= Y

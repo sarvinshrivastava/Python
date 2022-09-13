@@ -1,5 +1,5 @@
 #program starts from here
-#takeing input
+#taking input
 num = int(input())
 max = None
 elm = input()

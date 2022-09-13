@@ -1,4 +1,4 @@
-#Read an integer N. For all non-negative integers i < n, print i^2 . See the sample for details.
+#Read an integer N. For all non-negative integers i < n, print i^2 .
 
 #problem starts from here
 #taking input

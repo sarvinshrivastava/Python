@@ -2,7 +2,7 @@
 #The year can be evenly divided by 4, is a leap year.
 #The year can be evenly divided by 100, it is NOT a leap year.
 #The year is also evenly divisible by 400. Then it is a leap year.
-#Task:- You are given the year, and you have to write a function to check if the year is leap or not.
+#Task:- You are given the year, write a function to check if the year is leap or not.
 
 #program starts from here
 #main part
