@@ -5,10 +5,8 @@
 
 #program starts from here
 #takeig input
-a = input()
-a = int(a)
-b = input()
-b = int(b)
+a = int(input())
+b = int(input())
 
 #main part
 print(a + b)

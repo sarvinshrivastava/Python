@@ -5,7 +5,7 @@
 #0 <= k <= Z
 
 #program starts from Here
-#takeing input
+#taking input
 X = int(input())
 Y = int(input())
 Z = int(input())

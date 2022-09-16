@@ -3,12 +3,10 @@
 #If is even and in the inclusive range of 2 to 5 print Not Weird.
 #If is even and in the inclusive range of 6 to 20 print Weird.
 #If is even and greater than 20  print Not Weird.
-#Input 3
 
 #program starts from here
-#takeing Input
-num = input("Enter a number")
-num = int(num)
+#taking Input
+num = int(input("Enter a number"))
 
 #main part
 rem = num % 2
