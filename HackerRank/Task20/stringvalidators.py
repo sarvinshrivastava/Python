@@ -25,12 +25,22 @@ if __name__ == '__main__':
                 i = i + 1
 
         if(f1 == 1):
-                print('TRUE')
+                print('True')
+        else:
+                print('False')
         if(f2 == 1):
-                print('TRUE')
+                print('True')
+        else:
+                print('False')
         if(f3 == 1):
-                print('TRUE')
+                print('True')
+        else:
+                print('False')
         if(f4 == 1):
-                print('TRUE')
+                print('True')
+        else:
+                print('False')
         if(f5 == 1):
-                print('TRUE')
+                print('True')
+        else:
+                print('False')
