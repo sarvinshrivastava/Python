@@ -80,14 +80,17 @@ def binary_num(n):
 
 def print_formatted(number):
     # your code goes here
-    i = 2
-    print(1, "\t", 1, "\t", 1, "\t", 1)
+    i = 1
+    a = binary_num(number)
+    x = 0
+    while(a > 0):
+        x = x + 1
+        a = a // 10
     while(i <= number):
         o = octal_num(i)
         h = hexa_num(i)
         b = binary_num(i)
-        print(i, "\t", o, "\t", h, "\t", b)
+        print('{:>{x}} {:>{x}} {:>{x}} {:>{x}}' .format(i,o, h,b, x = x))
         i = i + 1
-
 n = int(input())
 print_formatted(n)
